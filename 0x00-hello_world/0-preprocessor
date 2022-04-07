@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -E -save temps $CFILE
+gcc -E $CFILE
+gcc -save temps c
