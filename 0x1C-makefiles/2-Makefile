@@ -1,6 +1,9 @@
 CC = gcc
-SRC = main.c holberton.c
+SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
-NAME = holberton
-all : $(OBJ)
-	$(CC) $(OBJ) -o $(NAME)
+NAME = school
+
+all: $(OBJ)
+	@echo "Compiling..."
+	@$(CC) $(OBJ) -o $(NAME)
+	@echo "Done."
